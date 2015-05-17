@@ -2,16 +2,30 @@
 <html>
 <head>
 	<title>Welcome to Facelook</title>
-	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' 
-	type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:900,300,700,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 	<!-- top-bar with logo, search, profile link -->
-	<section class="group top-bar"></section>
+	<section class="group top-bar">
+		<div class="wrapper">
+			<div class="col-20 logo">
+				<img src="#" alt=""><h2>Facelook</h2>
+			</div><!--
+			--><div class="col-60 search-bar">
+				<form action="#">
+					<input type="text" placeholder="Search for Users">
+				</form>
+			</div><!--
+			--><div class="col-20 top-profile-link">
+				<a href="#">Jeff</a>
+			</div>
+		</div>
 
-	<div class="page-wrapper">
+	</section>
+
+	<div class="wrapper">
 
 	<section class="group header"></section>
 		<div class="header-wrapper">
@@ -39,11 +53,19 @@
 	</section>
 
 	<section class="group content">
-		<div class="edit-button"><a href="#">Edit your Profile</a></div>
-		<div class="content-header">About</div>
+		<div class="content-header">
+			<h2>About</h2>
+			<div class="edit-button">
+				<form action="#">
+					<input class="btn" type="submit" value="Edit your Profile">
+				</form>
+			</div>
+		</div>
 		<div class="col-40">
 			<table>
-				<th colspan="2"><h2>Basic Information</h2></th>
+				<tr>
+					<th colspan="2"><h2>Basic Information</h2></th>
+				</tr>
 				<tr>
 					<td>Birthday:</td>
 					<td>December 4th, 1942</td>
@@ -60,9 +82,9 @@
 					<td>Currently Lives:</td>
 					<td>Los Angeles, CA USA</td>
 				</tr>
-			</table>
-			<table>
-				<th>Contact Information</th>
+				<tr>
+					<th class="cheater" colspan="2"><h2>Contact Information</h2></th>
+				</tr>
 				<tr>
 					<td>Email:</td>
 					<td>thedude@juno.com</td>

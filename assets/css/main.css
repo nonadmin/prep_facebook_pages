@@ -21,6 +21,7 @@ h2 {
 	background: #317BE1;
 	color: #fff;
 	font-size: 16px;
+	padding: 4px 8px;
 	-webkit-box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
 	box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
@@ -320,6 +321,17 @@ h2 {
 	margin: 20px;
 	border: 2px solid #000;
 	background: #ddd;
+	text-align: right;
+	line-height: 28px;
+}
+
+.post-box h3 {
+	font-size: 22px;
+	line-height: 28px;
+}
+
+.post-box .btn {
+	margin: 10px;
 }
 
 .post-box-header {
@@ -331,10 +343,11 @@ h2 {
 	border-top: 2px solid #000;
 	border-bottom: 2px solid #000;
 	text-align: center;
+	padding: 15px 0;
 }
 
 .news-feed-wrapper textarea {
 	height: 100px;
-	width: 80%;
+	width: 95%;
 	font: 16px/22px 'Roboto', sans-serif;
 }

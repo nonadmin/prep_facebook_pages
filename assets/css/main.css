@@ -2,7 +2,6 @@
 blue color - #317BE1
 */
 
- 
 /*
 div, section, table, td, tr {
 	border: 1px solid #ddd;
@@ -302,4 +301,40 @@ h2 {
 
 .friend-name {
 	width: 100%;
+}
+
+/* News Feed Content */
+
+.news-feed-page-wrapper {
+	max-width: 1200px;
+	min-width: 960px;
+	margin: 0 auto;
+}
+
+.news-feed-wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.post-box {
+	margin: 20px;
+	border: 2px solid #000;
+	background: #ddd;
+}
+
+.post-box-header {
+	text-align: center;
+}
+
+.post-box-textarea {
+	background: #fff;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	text-align: center;
+}
+
+.news-feed-wrapper textarea {
+	height: 100px;
+	width: 80%;
+	font: 16px/22px 'Roboto', sans-serif;
 }
